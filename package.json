@@ -1,0 +1,14 @@
+{
+  "name": "template-scss-architecture",
+  "version": "1.0.0",
+  "description": "A folder and file structure pre implemented and ready to use in new projects. Recommended use of node sass and live server.",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/styles.css -w"
+  },
+  "author": "IBA",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
